@@ -1,11 +1,13 @@
-# Tucklane Desktop Workspace Continuity for Windows & macOS
+# Tucklane for macOS and Windows
 
-The public companion for **Tucklane by EnlightPixel**, a desktop app for parking a project and resuming its saved context. This repository contains a reusable handoff template, setup notes and public issue reporting. The app and companion binaries are distributed through EnlightPixel.
+Park a project with a clear next step. Start with the blank checklist or the filled example below. Both work in any Markdown editor.
 
-- [Tucklane product page](https://enlightpixel.com/products/tucklane?utm_source=github&utm_medium=referral&utm_campaign=tucklane-docs)
+- [Tucklane product page](https://enlightpixel.com/products/tucklane)
 - [Official installers and requirements](https://enlightpixel.com/products/tucklane/download)
 - [Product documentation](https://enlightpixel.com/products/tucklane/docs)
+- [EnlightPixel](https://enlightpixel.com/)
 - [Copy the project handoff template](templates/project-handoff.md)
+- [See a filled project handoff](templates/example-handoff.md)
 
 ## Try a five-minute handoff
 
@@ -18,6 +20,8 @@ Tucklane reopens supported saved references. Save unsaved work and back up file 
 ## Browser and editor
 
 The browser companion can add tab context for Chrome and Edge. Follow the official download documentation, then check that the app detects the intended browser profile. VS Code workspace context uses the optional VSIX when offered for your release. Start with a disposable browser profile and sample workspace when diagnosing a problem.
+
+If a tab is missing on resume, first check whether it was present in the saved workspace. If it was missing there too, check the selected browser profile and capture a fresh checkpoint with one test tab. If the tab was saved, review which references you selected to resume.
 
 ## Get help
 
