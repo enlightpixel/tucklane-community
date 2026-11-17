@@ -17,6 +17,16 @@ Park a project with a clear next step. Start with the blank checklist or the fil
 
 Tucklane reopens supported saved references. Save unsaved work and back up file contents separately. The template also works as a plain Markdown checklist without installing the app.
 
+## In the app
+
+Open the workspace to see what you saved and where to pick up.
+
+![Tucklane workspace with saved apps, files, browser references, and a next step](docs/screenshots/workspace.png)
+
+Save a checkpoint and write down the next action before you switch projects.
+
+![Tucklane checkpoint dialog with a next-action field](docs/screenshots/checkpoint.png)
+
 ## Browser and editor
 
 The browser companion can add tab context for Chrome and Edge. Follow the official download documentation, then check that the app detects the intended browser profile. VS Code workspace context uses the optional VSIX when offered for your release. Start with a disposable browser profile and sample workspace when diagnosing a problem.
